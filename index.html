@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Descubrí Santa Elena</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid px-4">
+            
+            <a class="navbar-brand fw-bold" href="index.html">
+    <img src="img/Logo-Turismo-Santa-Elena-blanco.png" class="logo-navbar" alt="Logo">
+    Conociendo Santa Elena
+</a>
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="naturaleza.html">Naturaleza</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pesca.html">Pesca</a></li>
+                    <li class="nav-item"><a class="nav-link" href="fiestas.html">Fiestas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hoteleria.html">Hotelería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gastronomia.html">Gastronomía</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= CARRUSEL ================= -->
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/frigorifico.jpg" class="d-block w-100 imagen-carousel" alt="Santa Elena">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/iglesia.jpg" class="d-block w-100 imagen-carousel" alt="Iglesia">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/costanera.jpg" class="d-block w-100 imagen-carousel" alt="Costanera">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <section class="container my-5 text-center">
+        <h1 class="display-4 fw-bold">
+            Bienvenidos a Santa Elena
+        </h1>
+
+        <p class="lead mt-3">
+            Ubicada sobre las barrancas del río Paraná, Santa Elena es una ciudad
+            entrerriana reconocida por sus paisajes naturales, su tradición pesquera,
+            su tranquilidad y la calidez de su gente.
+        </p>
+
+        <a href="turismo.html" class="btn btn-primary btn-lg mt-3">
+            Conocer la ciudad
+        </a>
+    </section>
+
+    <section class="container mb-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 sombra">
+                    <img src="img/historia.jpeg" class="card-img-top" alt="Historia">
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Historia
+                        </h4>
+
+                        <p class="card-text">
+                            Conocé cómo nació Santa Elena y cómo fue evolucionando
+                            hasta convertirse en uno de los destinos más importantes
+                            del norte entrerriano.
+                        </p>
+
+                        <a href="historia.html" class="btn btn-outline-primary">
+                            Leer más
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 sombra">
+                    <img src="img/naturaleza.jpeg" class="card-img-top" alt="Naturaleza">
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Naturaleza
+                        </h4>
+
+                        <p class="card-text">
+                            Barrancas, playas, monte nativo y una gran biodiversidad
+                            convierten a Santa Elena en un destino ideal para disfrutar
+                            al aire libre.
+                        </p>
+
+                        <a href="naturaleza.html" class="btn btn-outline-success">
+                            Descubrir
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 sombra">
+                    <img src="img/pesca.jpg" class="card-img-top" alt="Pesca">
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Pesca Deportiva
+                        </h4>
+
+                        <p class="card-text">
+                            El río Paraná ofrece una de las mejores experiencias de pesca
+                            deportiva de la región durante todo el año.
+                        </p>
+
+                        <a href="pesca.html" class="btn btn-outline-warning">
+                            Más información
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- ================= FOOTER ================= -->
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-1">Santa Elena 2026</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
