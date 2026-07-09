@@ -23,9 +23,7 @@ body{
     color:#333;
 }
 
-/*==========================
-        NAVBAR
-===========================*/
+/*======= NAVBAR =========*/
 .navbar{
     padding-top: 10px 0;
     box-shadow:0 3px 10px rgba(0,0,0,.15);
@@ -49,6 +47,7 @@ body{
     height: 50px;
     margin-right: 10px;
 }
+
 
 /*=======IMAGENES COMPARSA============*/
 .marco-comparsa{
@@ -87,9 +86,7 @@ body{
 .titulo-emperatriz{color:#d63384;}
 
 
-/*==========================
-      CARRUSEL
-===========================*/
+/*====== CARRUSEL =======*/
 
 .imagen-carousel {
     height: 500px;
@@ -104,9 +101,7 @@ body{
     background:rgba(0,0,0,.25);
 }
 
-/*==========================
-        TITULOS
-===========================*/
+/*===== TITULOS =======*/
 
 h1,h2,h3,h4{
     color:var(--azul-oscuro);
@@ -116,9 +111,7 @@ section{
     margin-bottom:40px;
 }
 
-/*==========================
-         CARDS
-===========================*/
+/*======= CARDS ======*/
 
 .card{
     border:none;
@@ -145,18 +138,14 @@ section{
     font-weight:bold;
 }
 
-/*==========================
-        BOTONES
-===========================*/
+/*======== BOTONES ========*/
 
 .btn{
     border-radius:30px;
     padding:10px 25px;
 }
 
-/*==========================
-         ICONOS
-===========================*/
+/*======= ICONOS =======*/
 
 .icono{
     font-size:3rem;
@@ -164,9 +153,7 @@ section{
     margin-bottom:15px;
 }
 
-/*==========================
-       TABLAS
-===========================*/
+/*======== TABLAS ========*/
 
 table{
     background:white;
@@ -181,9 +168,7 @@ thead{
     box-shadow:0 3px 10px rgba(0,0,0,.1);
 }
 
-/*==========================
-        FORMULARIO
-===========================*/
+/*======= FORMULARIO =======*/
 
 form{
     background:white;
@@ -200,9 +185,7 @@ textarea{
     resize:none;
 }
 
-/*==========================
-        GALERIA
-===========================*/
+/*========= GALERIA ==========*/
 
 .galeria img{
     width:100%;
@@ -216,9 +199,7 @@ textarea{
     transform:scale(1.05);
 }
 
-/*==========================
-        FOOTER
-===========================*/
+/*======= FOOTER ========*/
 
 footer{
     margin-top:50px;
@@ -228,21 +209,17 @@ footer p{
     margin:0;
 }
 
-/*==========================
-      IMAGENES GENERALES
-===========================*/
+/*======= IMAGENES =========*/
 
 img{
     max-width:100%;
 }
 
-/*==========================
-      CAJAS INFORMATIVAS
-===========================*/
+/*====== CAJAS INFORMATIVAS ========*/
 
 .info-box{
     background:white;
-    padding:25px;
+    padding:10px;
     border-left:5px solid var(--azul);
     border-radius:10px;
     box-shadow:0 5px 15px rgba(0,0,0,.08);
@@ -269,9 +246,7 @@ img{
     opacity:1;
 }
 
-/*==========================
-        RESPONSIVE
-===========================*/
+/*======== RESPONSIVE ========*/
 
 @media (max-width:991px){
     .imagen-carousel{
