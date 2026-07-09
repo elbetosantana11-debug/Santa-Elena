@@ -50,7 +50,6 @@ body{
     margin-right: 10px;
 }
 
-
 /*=======IMAGENES COMPARSA============*/
 .marco-comparsa{
     border-radius: 8px;
@@ -92,11 +91,10 @@ body{
       CARRUSEL
 ===========================*/
 
-.imagen-carousel{
-    width: 100%;
+.imagen-carousel {
     height: 500px;
-    object-fit: contain;
-    background-color: #eee6e6; /* Opcional: rellena el espacio vacío con negro */
+    object-fit: cover;
+    object-position: center;
 }
 
 .carousel-item::after{
